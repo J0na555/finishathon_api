@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+users/__pycache__/
+users/migrations
+projects/
+/db.sqlite3
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Django-specific files
+*.log
+*.pot
+local_settings.py  # Or other files containing sensitive local settings
+/vscode
+
+db.sqlite3
+db.sqlite3-journal
+media/  # Uploaded user media files
+static_collected/ # Collected static files (if using collectstatic)
+
+# IDE-specific files (e.g., PyCharm, VS Code)
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.coverage
+.coverage.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
