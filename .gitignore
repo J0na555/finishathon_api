@@ -7,7 +7,7 @@ projects/
 *.pyc
 *.pyd
 *.pyo
-
+.env
 # Virtual environment
 venv/
 env/
@@ -18,7 +18,7 @@ env/
 local_settings.py  # Or other files containing sensitive local settings
 /vscode
 
-db.sqlite3
+/db.sqlite3
 db.sqlite3-journal
 media/  # Uploaded user media files
 static_collected/ # Collected static files (if using collectstatic)
