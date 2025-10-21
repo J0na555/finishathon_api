@@ -2,7 +2,6 @@
 __pycache__/
 users/__pycache__/
 users/migrations
-projects/
 /db.sqlite3
 *.pyc
 *.pyd
